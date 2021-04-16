@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+input[type=email] {
+  width: 85%;
+  padding: 1rem 0.5rem;
+  border: 1px solid #cac1c1;
+  border-radius: 5px;
+  color: #818389;
+  font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container .foot, .container .block .options, .container, .container .block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container, .container .block {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+.container .block {
+  width: 35vw;
+  height: auto;
+  border: 1px solid #cac1c1;
+  border-radius: 10px;
+}
+.container .block img {
+  width: 10rem;
+  height: 6rem;
+  margin: 1rem;
+}
+.container .block .signin {
+  margin: -2rem 0 0.5rem 0;
+  font-size: 1.4rem;
+}
+.container .block .use {
+  color: #818389;
+  font-weight: bold;
+}
+.container .block .box {
+  width: 100%;
+  text-align: center;
+  margin: 2rem;
+  margin-bottom: 0.6rem;
+}
+.container .block .purple {
+  color: #5473ed;
+  font-weight: bold;
+  width: 86%;
+}
+.container .block .learn {
+  width: 100%;
+  margin: 3rem 0rem;
+  padding: 0 2rem;
+}
+.container .block .learn .line1 {
+  color: #818389;
+}
+.container .block .options {
+  width: 100%;
+  padding: 0 2rem 4rem;
+}
+.container .block .options .create {
+  color: #5473ed;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.container .block .options button {
+  border: 1px solid #5473ed;
+  background: #5473ed;
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 1.7rem;
+  font-size: 1rem;
+}
+.container .foot {
+  width: 35vw;
+  margin: 1rem 0;
+}
+.container .foot .right {
+  display: flex;
+  color: #818389;
+}
+
+/*# sourceMappingURL=style.css.map */
